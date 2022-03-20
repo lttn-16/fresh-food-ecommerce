@@ -1,0 +1,50 @@
+/* button */
+.button-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.button-enter-active {
+  opacity: 1;
+  transition: transform 1s ease-in-out;
+  transition-delay: 1s;
+}
+
+.button-exit {
+  display: none;
+}
+
+/* image */
+.image-enter {
+  opacity: 0.01;
+  transform: translateX(450px) rotate(28deg);
+}
+
+.image-enter-active {
+  opacity: 1;
+  transform: translateX(0) rotate(0);
+  transition: transform 1000ms ease-in-out;
+}
+
+.image-exit {
+  opacity: 0;
+  display: none;
+}
+
+/* title */
+
+.message-enter {
+  opacity: 0.1;
+  transform: translateY(-100%);
+}
+
+.message-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 900ms ease-in-out;
+}
+
+.message-exit {
+  opacity: 0;
+  display: none;
+}
