@@ -8,7 +8,7 @@ const CustomInput = ({ label, ...props }) => {
   return (
     <Container>
       <Label htmlFor={props.id || props.name}>{label}</Label>
-      <Input {...field} {...props} error={meta.error} />
+      <Input {...field} {...props} error={meta.touched && meta.error} />
       {meta.touched && meta.error ? <Error>{meta.error}</Error> : null}
     </Container>
   );

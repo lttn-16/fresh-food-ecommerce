@@ -15,11 +15,11 @@ export const Menu = styled.div`
 `;
 
 export const Logo = styled.div`
-  ${tw`text-primary text-2xl font-extra-bold`}
+  ${tw`text-primary text-mxl font-extra-bold`}
 `;
 
 export const MenuItem = styled.div`
-  ${tw`px-2 py-1 hover:text-white hover:bg-primary hover:rounded-2xl`}
+  ${tw`px-2 py-1 text-md hover:text-white hover:bg-primary hover:rounded-2xl`}
   ${(props) => props.active && tw`text-white bg-primary rounded-2xl`}
   transition: .5s ease-in-out;
 `;
@@ -29,7 +29,7 @@ export const IconList = styled.div`
 `;
 
 export const IconItem = styled.div`
-  ${tw`text-2xl text-primary py-0.1 px-1 hover:text-white hover:bg-primary hover:rounded-2xl`}
+  ${tw`text-mxl text-primary py-0.1 px-1 hover:text-white hover:bg-primary hover:rounded-2xl`}
   transition: .5s ease-in-out;
 `;
 

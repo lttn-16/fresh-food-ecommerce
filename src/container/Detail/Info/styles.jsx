@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.div`
-  ${tw`text-3xl font-bold`}
+  ${tw`text-mxl font-bold`}
 `;
 
 export const Price = styled.div`
@@ -18,11 +18,11 @@ export const Wrapper = styled.div`
 `;
 
 export const InfoTitle = styled.div`
-  ${tw`font-bold text-xl`}
+  ${tw`font-bold text-18`}
 `;
 
 export const Size = styled.div`
-  ${tw`h-5 w-5 uppercase text-xl hover:bg-primary hover:text-white flex items-center justify-center cursor-pointer rounded-[25px] border-2 border-solid border-grey`}
+  ${tw`h-4 w-4 uppercase text-xl hover:bg-primary hover:text-white flex items-center justify-center cursor-pointer rounded-[25px] border-2 border-solid border-grey`}
   ${(props) => props.active && tw`bg-primary text-white`}
 `;
 
@@ -43,7 +43,7 @@ export const QuanlityIcon = styled.div`
 `;
 
 export const ButtonText = styled.div`
-  ${tw`text-white text-18`}
+  ${tw`text-white text-lg`}
 `;
 
 export const ButtonWrapper = styled.div`

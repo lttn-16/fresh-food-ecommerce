@@ -17,13 +17,13 @@ export const Img = styled.img`
 `;
 
 export const Info = styled.div`
-  ${tw`absolute top-1/2 laptop:left-3/4 left-2/3 bg-white rounded-35 laptop:py-6 laptop:px-7 w-full px-2 py-4 flex flex-col justify-center laptop:w-8/12 text-center h-[380px] phone:h-unset`}
+  ${tw`absolute top-1/2 laptop:left-3/4 left-2/3 bg-white rounded-35 laptop:py-6 laptop:px-5 w-full px-2 py-4 flex flex-col justify-center laptop:w-8/12 text-center h-[380px] phone:h-unset`}
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   transform: translateY(-50%);
 `;
 
 export const Title = styled.div`
-  ${tw`text-grey text-xl laptop:text-3xl font-bold mb-2 phone:mb-4`}
+  ${tw`text-grey text-xl laptop:text-mxl font-bold mb-2`}
 `;
 
 export const TitleGreen = styled.span`
@@ -31,7 +31,7 @@ export const TitleGreen = styled.span`
 `;
 
 export const Description = styled.div`
-  ${tw`overflow-hidden overflow-ellipsis`}
+  ${tw`overflow-hidden overflow-ellipsis text-md`}
   display: -webkit-box;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;

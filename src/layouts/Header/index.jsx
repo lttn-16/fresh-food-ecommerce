@@ -57,7 +57,7 @@ const Header = () => {
             {mainNav.map((item, index) => (
               <MenuItem key={index} active={activeNav === index}>
                 <Link to={item.path}>
-                  <span>{item.display}</span>
+                  <span> {item.display}</span>
                 </Link>
               </MenuItem>
             ))}

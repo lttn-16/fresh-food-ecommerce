@@ -10,5 +10,5 @@ export const MainWrapper = styled.div`
 `;
 
 export const Button = styled.a`
-  ${tw`bg-primary hidden rounded-[10px] text-3xl laptop:flex items-center justify-center p-1 hover:opacity-80 text-white w-max cursor-pointer fixed bottom-5 right-5 z-10`}
+  ${tw`bg-primary hidden rounded-[10px] text-24 laptop:flex items-center justify-center p-1 hover:opacity-80 text-white w-max cursor-pointer fixed bottom-5 right-5 z-10`}
 `;

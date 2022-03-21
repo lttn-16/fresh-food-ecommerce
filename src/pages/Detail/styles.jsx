@@ -18,7 +18,7 @@ export const Bottom = styled.div`
 `;
 
 export const BottomTitle = styled.div`
-  ${tw`font-bold text-mxl text-center my-5`}
+  ${tw`font-bold text-xl text-center my-4`}
 `;
 
 export const ProductList = styled.div`

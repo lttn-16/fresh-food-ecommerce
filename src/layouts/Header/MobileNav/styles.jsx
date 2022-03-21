@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import { Link as _Link } from "react-router-dom";
 
 export const Wrapper = styled.div`
-  ${tw`w-full z-20 fixed bottom-0 left-0 bg-white laptop:hidden flex overflow-hidden justify-between rounded-t-3xl shadow-nav-mobile`}
+  ${tw`w-full z-100 fixed bottom-0 left-0 bg-white laptop:hidden flex overflow-hidden justify-between rounded-t-3xl shadow-nav-mobile`}
 `;
 
 export const Move = styled.div`
@@ -13,7 +13,7 @@ export const Move = styled.div`
 `;
 
 export const IconItem = styled.div`
-  ${tw`text-2xl flex items-center justify-center  flex-auto py-1 text-grey`}
+  ${tw`text-xl flex items-center justify-center  flex-auto py-1 text-grey`}
   transition: .5s ease-in-out;
   ${(props) => props.active && tw`text-white`}
 `;

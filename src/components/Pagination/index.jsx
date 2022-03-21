@@ -24,7 +24,7 @@ const Pagination = (props) => {
       pageRangeDisplayed={displayRanges}
       marginPagesDisplayed={marginPage}
       onPageChange={handlePageChange}
-      containerClassName={`flex items-center text-md phone:text-lg text-neutral-3 border-neutral-3 ${className}`}
+      containerClassName={`flex items-center text-md text-neutral-3 border-neutral-3 ${className}`}
       previousLabel={
         <LabelWrapper>
           <i class="bx bx-chevron-left"></i>
@@ -37,7 +37,7 @@ const Pagination = (props) => {
       }
       previousLinkClassName="outline-none focus:outline-none"
       nextLinkClassName="outline-none focus:outline-none"
-      pageLinkClassName="flex items-center justify-center mx-0.5 w-3 h-3 phone:w-4 phone:h-4 rounded border focus:outline-none hover:text-white hover:bg-primary"
+      pageLinkClassName="flex items-center justify-center mx-0.5 w-2 h-2 phone:w-3 phone:h-3 rounded border focus:outline-none hover:text-white hover:bg-primary"
       activeLinkClassName="text-white bg-primary focus:outline-none"
     />
   );

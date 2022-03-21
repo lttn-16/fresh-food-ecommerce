@@ -2,7 +2,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  ${tw`h-full flex flex-col gap-4 rounded-3xl pb-3 cursor-pointer`}
+  ${tw`h-full flex flex-col gap-2 rounded-3xl pb-3 cursor-pointer`}
   transition: .4s ease-in-out;
   &:hover {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
-  ${tw`overflow-hidden w-full h-28 rounded-3xl`}
+  ${tw`overflow-hidden w-full h-26 rounded-3xl`}
 `;
 
 export const Img = styled.img`
@@ -31,14 +31,14 @@ export const InfoLeft = styled.div`
 `;
 
 export const InfoRight = styled.div`
-  ${tw`text-2xl text-primary py-0.1 px-1 hover:text-white hover:bg-primary hover:rounded-2xl`}
+  ${tw`text-mxl text-primary py-0.1 px-1 hover:text-white hover:bg-primary hover:rounded-2xl`}
   transition: .5s ease-in-out;
 `;
 
 export const Title = styled.div`
-  ${tw`text-grey font-bold text-xl`}
+  ${tw`text-grey font-bold text-lg`}
 `;
 
 export const Price = styled.div`
-  ${tw`text-lg `}
+  ${tw`text-lg`}
 `;

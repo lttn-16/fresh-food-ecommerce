@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  ${tw` my-10 laptop:m-10 flex flex-col gap-3 bg-white rounded-3xl px-2 py-5 laptop:p-8`}
+  ${tw` my-10 laptop:m-10 flex flex-col gap-3 bg-white rounded-3xl px-2 py-5 laptop:py-6 laptop:px-4`}
 `;
 
 export const Title = styled.div`
@@ -18,7 +18,7 @@ export const TitleGreen = styled.span`
 `;
 
 export const Description = styled.span`
-  ${tw`text-center text-sm phone:text-lg`}
+  ${tw`text-center text-sm phone:text-md`}
 `;
 
 export const ButtonWrapper = styled.div`
@@ -26,10 +26,10 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const Button = styled.div`
-  ${tw`py-[7px] px-3.5 font-semibold text-sm phone:text-lg border border-solid rounded-2xl border-primary w-max text-primary hover:text-white hover:bg-primary cursor-pointer transition duration-500 ease-in-out`}
+  ${tw`py-[7px] px-3.5 font-semibold text-sm phone:text-md border border-solid rounded-2xl border-primary w-max text-primary hover:text-white hover:bg-primary cursor-pointer transition duration-500 ease-in-out`}
   ${(props) => props.active && tw`bg-primary text-white`}
 `;
 
 export const FoodList = styled.div`
-  ${tw`grid grid-cols-2 laptop:grid-cols-4 gap-3`}
+  ${tw`grid grid-cols-2 laptop:grid-cols-4 gap-2`}
 `;

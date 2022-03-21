@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  ${tw`m-auto relative flex bg-white flex-col gap-2 p-5 laptop:flex-row phone:gap-5 w-full laptop:w-[60%] transition ease-in-out duration-700`}
+  ${tw`m-auto relative flex bg-white flex-col gap-2 p-3 laptop:flex-row phone:gap-5 w-full laptop:w-[60%] transition ease-in-out duration-700`}
   transform: translateY(-100%);
   ${(props) => props.expand && "transform: translateY(0);"}
 `;
@@ -22,7 +22,7 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const Button = styled.div`
-  ${tw`hover:opacity-80 cursor-pointer p-1 px-1.5 font-bold bg-primary text-white`}
+  ${tw`hover:opacity-80 cursor-pointer text-md p-0.5 px-1 font-bold bg-primary text-white`}
 `;
 
 export const Backdrop = styled.div`

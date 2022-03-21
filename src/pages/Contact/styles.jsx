@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  ${tw`text-18`}
+  ${tw`text-md`}
 `;
 
 export const Left = styled.div`
@@ -33,5 +33,5 @@ export const Map = styled.div`
 `;
 
 export const Header = styled.div`
-  ${tw`mb-2 text-2xl font-bold text-primary`}
+  ${tw`mb-2 text-xl font-bold text-primary`}
 `;

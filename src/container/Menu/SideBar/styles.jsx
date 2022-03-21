@@ -10,9 +10,9 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
-  ${tw`font-bold text-lg mb-1`}
+  ${tw`font-bold text-md mb-1`}
 `;
 
 export const List = styled.div`
-  ${tw`flex flex-col gap-0.5`}
+  ${tw`flex flex-col gap-0.5 text-md`}
 `;

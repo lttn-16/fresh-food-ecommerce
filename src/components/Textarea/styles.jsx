@@ -6,12 +6,12 @@ export const Container = styled.div`
 `;
 
 export const Textarea = styled.textarea`
-  ${tw`w-full border block resize-none border-solid border-grey px-2 py-1.5 rounded-xl my-0.5`}
+  ${tw`w-full text-md border block resize-none border-solid border-grey px-2 py-1.5 rounded-xl my-0.5`}
   ${(props) => props.error && tw`border-error`}
 `;
 
 export const Label = styled.label`
-  ${tw`block font-semibold text-18`}
+  ${tw`block font-semibold text-md`}
 `;
 
 export const Error = styled.div`

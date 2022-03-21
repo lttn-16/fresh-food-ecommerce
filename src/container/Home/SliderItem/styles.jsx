@@ -10,11 +10,11 @@ export const Info = styled.div`
 `;
 
 export const Title = styled.h2`
-  ${tw`laptop:text-title text-[60px] capitalize font-extra-bold text-white`}
+  ${tw`laptop:text-[100px] text-[50px] capitalize font-extra-bold text-white`}
 `;
 
 export const Description = styled.div`
-  ${tw`text-white laptop:text-18 text-lg overflow-hidden`}
+  ${tw`text-white  text-md overflow-hidden`}
 `;
 
 export const Text = styled.p`
@@ -22,7 +22,7 @@ export const Text = styled.p`
 `;
 
 export const ButtonText = styled.div`
-  ${tw`font-bold uppercase laptop:text-xl text-lg`}
+  ${tw`font-bold uppercase text-md`}
 `;
 
 export const ImgWrapper = styled.div`

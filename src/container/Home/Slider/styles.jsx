@@ -13,7 +13,7 @@ export const Control = styled.div`
 `;
 
 export const ControlItem = styled.div`
-  ${tw`w-7 h-7 cursor-pointer transition duration-500 ease-in-out`}
+  ${tw`w-6 h-6 cursor-pointer transition duration-500 ease-in-out`}
   &:hover {
     transform: translateY(-20px) rotate(10deg);
   }

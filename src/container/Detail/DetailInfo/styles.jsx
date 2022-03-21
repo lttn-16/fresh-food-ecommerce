@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.div`
-  ${tw`font-bold text-xl my-3`}
+  ${tw`font-bold text-xl my-2`}
 `;
 
 export const Wrapper = styled.div`
@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Descritpion = styled.div`
-  ${tw`h-25`}
+  ${tw`h-25 text-md`}
   ${(props) => props.expand && "height: max-content;"}
 `;
 

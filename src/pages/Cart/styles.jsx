@@ -4,7 +4,7 @@ import tw from "twin.macro";
 export const Container = styled.div`
   ${tw`grid px-2 w-full gap-3 laptop:px-4 desktop:px-10 py-3 phone:py-4 laptop:py-6`}
   @media (min-width: 1024px) {
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 3fr 7fr;
   }
 `;
 

@@ -2,7 +2,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  ${tw`py-15 bg-center bg-no-repeat bg-cover`}
+  ${tw`py-10 bg-center bg-no-repeat bg-cover text-md`}
 `;
 
 export const Wrapper = styled.div`
@@ -17,7 +17,7 @@ export const Nav = styled.div`
 `;
 
 export const Title = styled.div`
-  ${tw`font-bold text-primary text-2xl mb-2 w-max`}
+  ${tw`font-bold text-primary text-xl mb-2 w-max`}
 `;
 
 export const Text = styled.div`
