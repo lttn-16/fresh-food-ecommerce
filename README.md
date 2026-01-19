@@ -7,7 +7,6 @@ An e-commerce food website.
 Demo: [https://freshfood-ecommerce.netlify.app/](https://freshfood-ecommerce.netlify.app/)
 
 ## Main technology used
-
 - ReactJS
 - Redux Toolkit
 - Tailwind
