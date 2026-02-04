@@ -26,6 +26,7 @@ jobs:
         with:
           context: .
           push: true
+          platforms: linux/amd64,linux/arm64
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/fresh-food-ecommerce:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/fresh-food-ecommerce:${{ github.sha }}
